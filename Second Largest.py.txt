@@ -1,0 +1,12 @@
+class Solution:
+    def getSecondLargest(self, arr):
+        if len(arr) < 2:
+            return -1
+        
+        unique_arr = list(set(arr))
+        
+        if len(unique_arr) < 2:
+            return -1
+        
+        unique_arr.sort(reverse=True)
+        return unique_arr[1]

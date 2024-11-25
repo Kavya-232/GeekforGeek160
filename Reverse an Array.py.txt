@@ -1,0 +1,7 @@
+class Solution:
+    def reverseArray(self, arr):
+        # code here
+        res = arr[::-1]
+        arr[::] = res[::]
+        return arr
+        
