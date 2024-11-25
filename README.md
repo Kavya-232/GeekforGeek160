@@ -29,7 +29,6 @@ cd gfg160-codes
 
 
 
-
 Here’s a sample README.md file for your "gfg160 codes" GitHub repository:
 
 markdown
